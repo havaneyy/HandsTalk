@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HandsTalk - Profile</title>
+    <link rel="stylesheet" href="profile.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Poppins:ital,wght@0,300;0,900;1,300&display=swap" rel="stylesheet">
+</head>
+<script>
+    function toggleEdit() {
+  document.querySelectorAll('.info-item p').forEach(el => {
+    el.contentEditable = el.contentEditable !== 'true';
+  });
+}
+</script>
+<body>
+    <div class="page-container">
+        <div class="main-card">
+            <!-- Background layers -->
+            <div class="background-layer"></div>
+            <div class="sea-overlay"></div>
+            
+            <!-- Navigation -->
+            <nav class="navbar">
+                <div class="logo">
+                    <img src="handstalk character.png" alt="HandsTalk Logo" class="logo-icon">
+                    <img src="handstalk text.png" class="logo-icon1">
+                </div>
+                <div class="nav-container">
+                    <ul class="nav-links">
+                        <li><a href="home.html">Home</a></li>
+                        <li><a href="about us.html">About Us</a></li>
+                        <li><a href="cg alpha.html">Categories</a></li>
+                        <li><a href="search.html">Search</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="profile.html">Profile</a></li>
+                    </ul>
+                </div>
+            </nav>
+            
+           <!-- Profile Card -->
+      <div class="profile-card">
+        <div class="user-header">
+          <div class="user-info">
+            <img src="handstalk character.png" alt="User Avatar">
+            <div class="user-details">
+              <h2>Janice Yonalero</h2>
+              <p>Tagbilaran City, Bohol</p>
+            </div>
+          </div>
+          <button class="edit-btn">Edit ✎</button>
+        </div>
+
+        <div class="info-section">
+          <div class="info-header">
+            <h3>Personal Information</h3>
+            <button class="edit-btn">Edit ✎</button>
+          </div>
+          <div class="info-grid">
+            <div class="info-item">
+              <span class="label">First Name</span>
+              <p>Janice</p>
+            </div>
+            <div class="info-item">
+              <span class="label">Last Name</span>
+              <p>Yonalero</p>
+            </div>
+            <div class="info-item">
+              <span class="label">Phone</span>
+              <p>+63 985 3847 834</p>
+            </div>
+            <div class="info-item">
+              <span class="label">Email address</span>
+              <p><strong>dajanenonli@gmail.com</strong></p>
+            </div>
+            <div class="info-item">
+              <span class="label">Bio</span>
+              <p><strong>What a life.</strong></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="info-section">
+          <div class="info-header">
+            <h3>Address</h3>
+            <button class="edit-btn">Edit ✎</button>
+          </div>
+          <div class="info-grid">
+            <div class="info-item">
+              <span class="label">Country</span>
+              <p>Philippines</p>
+            </div>
+            <div class="info-item">
+              <span class="label">City/State</span>
+              <p>Tagbilaran City</p>
+            </div>
+            <div class="info-item">
+              <span class="label">Street Name</span>
+              <p>Jansenn Heights</p>
+            </div>
+            <div class="info-item">
+              <span class="label">Postal Code</span>
+              <p>6300</p>
+            </div>
+          </div>
+        </div>
+
+        <button class="logout-btn">Log Out</button>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
