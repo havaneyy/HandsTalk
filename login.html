@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HandsTalk - Sign Up or Log In</title>
+    <link rel="stylesheet" href="login.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Poppins:ital,wght@0,300;0,900;1,300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="page-container">
+        <div class="main-card">
+            <!-- Background layers -->
+            <div class="background-layer"></div>
+            <div class="sea-overlay"></div>
+            
+            <!-- Navigation -->
+            <nav class="navbar">
+                <div class="logo">
+                    <img src="handstalk character.png" alt="HandsTalk Logo" class="logo-icon">
+                    <img src="handstalk text.png" class="logo-icon1">
+                </div>
+                <div class="nav-container">
+                    <ul class="nav-links">
+                        <li><a href="home.html">Home</a></li>
+                        <li><a href="about us.html">About Us</a></li>
+                        <li><a href="cg alpha.html">Categories</a></li>
+                        <li><a href="search.html">Search</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="profile.html">Profile</a></li>
+                    </ul>
+                </div>
+            </nav>
+            
+<div class="auth-card">
+
+    <!-- TITLE -->
+    <h2 class="form-title">Log In</h2>
+
+    <!-- INPUTS -->
+    <input type="text" placeholder="Username or Email" class="input-field">
+    <input type="password" placeholder="Password" class="input-field">
+
+    <!-- FORGOT PASSWORD -->
+    <div class="guest-option">
+        <a href="#" class="guest-link">Forgot password?</a>
+    </div>
+
+    <!-- BUTTON -->
+    <a href="home.html"><button class="btn btn-primary">Log In</button></a>
+
+    <!-- DIVIDER -->
+    <div class="social-login">
+        <div class="divider">
+            <span class="divider-line"></span>
+            <span class="divider-text">or continue with</span>
+            <span class="divider-line"></span>
+        </div>
+
+        <!-- SOCIAL BUTTONS -->
+        <div class="social-buttons">
+                        <button class="social-btn" onclick="this.classList.add('dissolve'); setTimeout(() => window.location.href='https://accounts.google.com/signin', 500)">
+                            <img src="google.png" alt="Google">
+                        </button>
+                        <button class="social-btn" onclick="this.classList.add('dissolve'); setTimeout(() => window.location.href='https://www.facebook.com/login', 500)">
+                            <svg width="26" height="26" viewBox="0 0 26 26" fill="none">
+                                <path d="M26 13C26 5.82029 20.1797 0 13 0C5.82029 0 0 5.82029 0 13C0 19.4886 4.75389 24.8669 10.9688 25.8421V16.7578H7.67188V13H10.9688V10.1359C10.9688 6.87781 12.9096 5.07812 15.8787 5.07812C17.3018 5.07812 18.7891 5.33203 18.7891 5.33203V8.53125H17.1498C15.5349 8.53125 15.0312 9.53342 15.0312 10.5625V13H18.6367L18.0604 16.7578H15.0312V25.8421C21.2461 24.8669 26 19.4886 26 13Z" fill="#1877F2"/>
+                                <path d="M18.0604 16.7578L18.6367 13H15.0312V10.5625C15.0312 9.53342 15.5349 8.53125 17.1498 8.53125H18.7891V5.33203C18.7891 5.33203 17.3018 5.07812 15.8787 5.07812C12.9096 5.07812 10.9688 6.87781 10.9688 10.1359V13H7.67188V16.7578H10.9688V25.8421C11.6372 25.9461 12.3125 26 13 26C13.6875 26 14.3628 25.9461 15.0312 25.8421V16.7578H18.0604Z" fill="white"/>
+                            </svg>
+                        </button>
+                        <button class="social-btn" onclick="this.classList.add('dissolve'); setTimeout(() => window.location.href='https://appleid.apple.com/signin', 500)">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                <path d="M17.05 20.28C16.07 21.23 15 21.08 13.97 20.63C12.88 20.17 11.88 20.15 10.73 20.63C9.29 21.25 8.53 21.07 7.67 20.28C2.79 15.25 3.51 7.59 9.05 7.31C10.4 7.38 11.34 8.05 12.13 8.11C13.31 7.87 14.44 7.18 15.7 7.27C17.21 7.39 18.35 7.99 19.1 9.07C15.98 10.94 16.72 15.05 19.58 16.2C18.97 17.82 18.17 19.42 17.04 20.29L17.05 20.28ZM12.03 7.25C11.88 5.02 13.69 3.18 15.77 3C16.06 5.58 13.43 7.5 12.03 7.25Z" fill="black"/>
+                            </svg>
+                        </button>
+                    </div>
+    </div>
+
+</div>
+            
+            <!-- Character -->
+            <div class="character">
+                <img src="hi.png" alt="HandsTalk Character">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
